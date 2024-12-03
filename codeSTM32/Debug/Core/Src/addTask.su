@@ -1,0 +1,6 @@
+addTask.c:12:6:led0_test	8	static
+addTask.c:15:6:led1_test	8	static
+addTask.c:18:6:led2_test	8	static
+addTask.c:21:6:led3_test	8	static
+addTask.c:24:6:led4_test	8	static
+addTask.c:27:6:led5_test	8	static
