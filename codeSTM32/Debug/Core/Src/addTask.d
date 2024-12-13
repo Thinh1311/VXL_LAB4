@@ -23,7 +23,8 @@ Core/Src/addTask.o: ../Core/Src/addTask.c ../Core/Inc/addTask.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h \
- ../Core/Inc/button.h ../Core/Inc/software_timer.h
+ ../Core/Inc/button.h ../Core/Inc/software_timer.h \
+ ../Core/Inc/scheduler.h
 
 ../Core/Inc/addTask.h:
 
@@ -80,3 +81,5 @@ Core/Src/addTask.o: ../Core/Src/addTask.c ../Core/Inc/addTask.h \
 ../Core/Inc/button.h:
 
 ../Core/Inc/software_timer.h:
+
+../Core/Inc/scheduler.h:

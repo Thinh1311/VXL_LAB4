@@ -19,7 +19,7 @@ void SCH_Init(void){
 	}
 }
 
-void SCH_Add_Task ( void (*pFunction)() ,uint32_t DELAY, uint32_t PERIOD){
+void SCH_Add_Task(void (*pFunction)() ,uint32_t DELAY, uint32_t PERIOD){
 		if(current_index_task < SCH_MAX_TASKS){
 
 			SCH_tasks_G[current_index_task].pTask = pFunction;

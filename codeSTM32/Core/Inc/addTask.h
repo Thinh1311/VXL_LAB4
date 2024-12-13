@@ -10,6 +10,7 @@
 
 #include "main.h"
 #include "button.h"
+#include "scheduler.h"
 
 void led0_test();
 void led1_test();

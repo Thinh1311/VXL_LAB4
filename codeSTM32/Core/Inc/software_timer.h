@@ -10,7 +10,7 @@
 
 #include "main.h"
 
-extern int TIME_CYCLE;
+extern int TIMER_CYCLE;
 extern int timer0_flag;
 extern int timer1_flag;
 extern int timer2_flag;
